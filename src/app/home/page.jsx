@@ -1,5 +1,12 @@
+import HomeHeader from "./components/HomeHeader";
+
 const Home = () => {
-  return <>/homeでここが表示されます。</>;
+  return (
+  <>
+    <HomeHeader />
+    /homeでここが表示されます。
+  </>
+  );
 };
 
 export default Home;
