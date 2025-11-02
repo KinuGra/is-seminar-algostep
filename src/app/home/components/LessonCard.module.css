@@ -1,0 +1,43 @@
+.card {
+  width: 350px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  padding: 15px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 5px 0 5px;
+}
+
+.content {
+  color: #636363;
+  margin: 5px 5px 25px 5px;
+}
+
+.difficulty {
+  font-size: 15px;
+  text-align: center;
+  padding: 3px;
+  width: 55px;
+  background-color: #eee;
+  border-radius: 15px;
+}
+
+.easy {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.medium {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.hard {
+  background-color: #f8d7da;
+  color: #721c24;
+}
