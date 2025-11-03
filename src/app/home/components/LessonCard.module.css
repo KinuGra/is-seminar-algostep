@@ -5,6 +5,7 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #fff;
   padding: 15px;
+  margin: 10px;
 }
 
 .title {
@@ -13,7 +14,7 @@
   margin: 5px 5px 0 5px;
 }
 
-.content {
+.description {
   color: #636363;
   margin: 5px 5px 25px 5px;
 }

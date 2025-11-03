@@ -1,3 +1,4 @@
+import { programmingBasics } from "@/data/lesson/programmingBasics";
 import HomeHeader from "./components/HomeHeader";
 import LessonCard from "./components/LessonCard";
 
@@ -6,11 +7,9 @@ const Home = () => {
     <>
       <HomeHeader />
       /homeでここが表示されます。
-      <LessonCard
-        title="入出力の基礎"
-        content="プログラムの入力と出力の基本を学びます"
-        difficulty="easy"
-      />
+      {programmingBasics.map((lesson) => (
+        <LessonCard key={lesson.id} lesson={lesson} />
+      ))}
     </>
   );
 };
