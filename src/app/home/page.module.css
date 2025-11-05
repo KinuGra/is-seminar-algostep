@@ -3,10 +3,17 @@
   grid-template-columns: repeat(2, 350px);
   justify-content: center;
   gap: 15px 20px;
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 740px) {
   .container {
     grid-template-columns: 350px;
   }
+}
+
+.title {
+  margin: 2rem 2rem 1rem 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
