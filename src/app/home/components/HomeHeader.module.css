@@ -2,8 +2,7 @@
   display: flex;
   align-items: center;
   padding: 1.3rem;
-  margin: 0 0 1.5rem 0;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .maintxt {

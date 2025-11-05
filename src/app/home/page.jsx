@@ -8,19 +8,20 @@ const Home = () => {
 	return (
 		<>
 			<HomeHeader />
+			<div style={{ backgroundColor: "#f7f7f7" }}>
+				<div className={styles.title}>プログラミングの基礎</div>
+				<div className={styles.container}>
+					{programmingBasics.map((lesson) => (
+						<LessonCard key={lesson.id} lesson={lesson} />
+					))}
+				</div>
 
-			<div className={styles.title}>プログラミングの基礎</div>
-			<div className={styles.container}>
-				{programmingBasics.map((lesson) => (
-					<LessonCard key={lesson.id} lesson={lesson} />
-				))}
-			</div>
-
-			<div className={styles.title}>アルゴリズムとデータ構造の基礎</div>
-			<div className={styles.container}>
-				{algorithmAndDataStructures.map((lesson) => (
-					<LessonCard key={lesson.id} lesson={lesson} />
-				))}
+				<div className={styles.title}>アルゴリズムとデータ構造の基礎</div>
+				<div className={styles.container}>
+					{algorithmAndDataStructures.map((lesson) => (
+						<LessonCard key={lesson.id} lesson={lesson} />
+					))}
+				</div>
 			</div>
 		</>
 	);
