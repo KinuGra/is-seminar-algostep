@@ -1,17 +1,16 @@
 import styles from "./HomeHeader.module.css";
+import { DiCode } from "react-icons/di";
 
 export default function HomeHeader() {
   return (
-    <>
-      <header>
-        <div className={styles.header}>
-          <div className={styles.bg}>💻</div>
-          <div>
-            <h1 className={styles.maintxt}>プログラミング学習</h1>
-            <p className={styles.subtxt}>アルゴリズムとデータ構造を学ぼう</p>
-          </div>
-        </div>
-      </header>
-    </>
+    <div className={styles.container}>
+      <div className={styles.icon}>
+        <DiCode />
+      </div>
+      <div>
+        <h1 className={styles.maintxt}>AlgoStep</h1>
+        <p className={styles.subtxt}>初歩からプログラミングを学ぼう</p>
+      </div>
+    </div>
   );
 }
