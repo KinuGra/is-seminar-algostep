@@ -1,7 +1,7 @@
 import { programmingBasics } from "@/data/lesson/programmingBasics";
 import HomeHeader from "./components/HomeHeader";
 import LessonCard from "./components/LessonCard";
-import styles from "./home.module.css";
+import styles from "./page.module.css";
 
 const Home = () => {
 	return (
