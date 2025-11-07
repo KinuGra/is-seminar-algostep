@@ -1,3 +1,5 @@
+import { notFound } from "next/navigation";
+
 const LessonPage = async ({ params }) => {
   const { category, lessonId } = await params;
 
@@ -16,7 +18,7 @@ const LessonPage = async ({ params }) => {
       </>
     );
   } else {
-    return <>404</>;
+    notFound();
   }
 };
 
