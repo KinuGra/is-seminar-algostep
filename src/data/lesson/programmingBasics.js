@@ -5,6 +5,48 @@ export const programmingBasics = [
 		description:
 			"プログラミングの基本概念と、人気の高い言語Pythonの特徴について学びます。",
 		difficulty: "easy",
+		contents: [
+			{
+				title: "プログラミングとは？",
+				markdown: `
+### プログラミングとは
+プログラミングとは、コンピュータに命令を与えて動作させることです。
+
+例えば：
+\`\`\`python
+print("Hello, World!")
+\`\`\`
+`,
+			},
+			{
+				title: "Pythonの特徴",
+				markdown: `
+### Pythonの特徴
+- 文法がシンプルで読みやすい
+- 機械学習、Web開発、データ分析など幅広く使われる
+`,
+			},
+		],
+		quizzes: [
+			{
+				id: 1,
+				type: "choice",
+				question: "Pythonの特徴として正しいものはどれ？",
+				options: [
+					"文法が難しい",
+					"機械学習に向いている",
+					"ブラウザでしか動かない",
+				],
+				correctAnswer: "機械学習に向いている",
+			},
+			{
+				id: 2,
+				type: "written",
+				question:
+					"print関数を使って Hello, World と出力するコードを書いてください。",
+				correctAnswer: ["print('Hello, World')", 'print("Hello, World")'],
+			},
+		],
 	},
 	{
 		id: 2,
